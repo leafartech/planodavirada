@@ -24,11 +24,11 @@ export default function RootLayout({
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-KK8LV559')
+          })(window,document,'script','dataLayer','GTM-NP2QXHFT')
         `}} />
       </head>
       <body className={`${inter.className} ${playfair_display.className}`}>
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KK8LV559"
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NP2QXHFT"
           height="0" width="0"></iframe></noscript>
         {children}
       </body>
