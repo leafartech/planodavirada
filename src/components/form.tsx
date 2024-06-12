@@ -29,7 +29,7 @@ export function Form() {
                 let utm_campaign = params?.split('&').find(item => item.includes('utm_campaign'))?.split('=')[1]
                 let utm_content = params?.split('&').find(item => item.includes('utm_content'))?.split('=')[1]
                 let utm_term = params?.split('&').find(item => item.includes('utm_term'))?.split('=')[1]
-                // const inpt1 = document.getElementById('field[9]') as HTMLInputElement // utmsource
+                
                 const inpt1 = document.querySelector('[data-name="utm_source"]') as HTMLInputElement // utmsource
                 const inpt2 = document.querySelector('[data-name="utm_medium"]') as HTMLInputElement // utmmedium
                 const inpt3 = document.querySelector('[data-name="utm_campaign"]') as HTMLInputElement // utmcampaign
