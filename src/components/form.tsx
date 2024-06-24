@@ -8,7 +8,7 @@ export function Form() {
     useEffect(() => {
         if (cont === 0) {
             const script = document.createElement('script');
-            script.src = 'https://giogarcia.activehosted.com/f/embed.php?id=2';
+            script.src = 'https://giogarcia.activehosted.com/f/embed.php?id=14';
             script.type = 'text/javascript';
             script.charset = 'utf-8';
             script.async = true;
@@ -47,7 +47,7 @@ export function Form() {
 
     return (
         <div className="w-full h-[204px]">
-            <div id="_form_2" className="_form_2"></div>
+            <div id="_form_14" className="_form_14"></div>
         </div>
     )
 }
