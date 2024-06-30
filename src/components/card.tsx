@@ -8,7 +8,7 @@ interface CardProps {
 
 export function Card({ children, svgBack, text }: CardProps) {
     return (
-        <div className="relative sm:max-w-[272px] h-[229px] rounded-xl">
+        <div className="relative sm:max-w-[272px] h-[256px] rounded-xl">
             {svgBack}
             <div className="flex flex-col gap-4 relative text-white z-50 p-8 text-lg sm:text-sm">
                 {children}
